@@ -1,8 +1,10 @@
 :root {
-	--lightest-color: #726e60;
+	--lightest-color: #7c4836;
 	--highlight-color: #ffffff;
-	--button-color-sage: #9BA17B;
-	--background-color: #E5DBBC;
+	--button-color-green: #32673f;
+	--hover-color: #f5f5f5;
+	--background-color: #F5F5DC;
+	--contact-color: #7c4836;
 }
 
 body {
@@ -40,6 +42,18 @@ a {
 	text-decoration: none;
 }
 
+.contact-button {
+	border: 2px solid var(--highlight-color);
+	height: 50px;
+	width: 100px;
+	margin: 10px auto;
+	color: var(--highlight-color);
+	text-align: center;
+	border-radius: 2px;
+	display: inline-block;
+	background: var(--contact-color);
+  }
+
 .link-list-item {
 	border: 1px solid var(--highlight-color);
 	box-sizing: border-box;
@@ -51,13 +65,14 @@ a {
 	border-radius: 2px;
 }
 
-.link-list-item:hover
+.link-list-item:hover, .contact-button:hover
 {
-	color: var(--lightest-color);
-	border-color: var(--lightest-color);
-	text-shadow: 0 0 2em var(--lightest-color);
+	color: var(--hover-color);
+	border-color: var(--hover-color);
+	text-shadow: 0 0 2em var(--hover-color);
 }
 
-.sage {
-	background: var(--button-color-sage);
+.green {
+	background: var(--button-color-green);
 }
+

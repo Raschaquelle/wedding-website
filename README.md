@@ -1,6 +1,6 @@
-### Raschaquelle Link In Bio
+### Ben & Rachelle's Wedding Webpage
 
--   LinkTree / Link in Bio Landing Page with HTML and CSS
+-   Landing Page with HTML and CSS
 
 ### Credits
 Based on original work by [stephjs/linkinbio](https://github.com/stephjs/linkinbio)
