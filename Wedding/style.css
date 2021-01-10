@@ -1,10 +1,10 @@
 :root {
-	--lightest-color: #7c4836;
+	--lightest-color: #000000;
 	--highlight-color: #ffffff;
-	--button-color-green: #32673f;
+	--button-color-green: #272F1E;
 	--hover-color: #f5f5f5;
-	--background-color: #F5F5DC;
-	--contact-color: #7c4836;
+	--background-color: #C4AA97;
+	--contact-color: #97948B;
 }
 
 body {
