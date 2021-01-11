@@ -1,15 +1,16 @@
 :root {
-	--lightest-color: #000000;
+	--text-color: #000000;
+	--border-color: #000000;
 	--highlight-color: #ffffff;
-	--button-color-green: #272F1E;
 	--hover-color: #f5f5f5;
-	--background-color: #C4AA97;
-	--contact-color: #272F1E;
+	--background-color: #6EA7D6;
+	--contact-color: #ffffff;
+	--contact-hover: #3a3b3c;
 }
 
 body {
 	background: var(--background-color);
-	color: var(--lightest-color);
+	color: var(--text-color);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -43,13 +44,15 @@ body {
 	margin-bottom: 15px;
 }
 
-.square {
+.circle {
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
 	float: left;
 	margin: 0 15px 0 0;
 	display: inline;
+	border-radius: 50%;
+	border: 3px solid var(--border-color);
 }
 
 .profile-pic {
@@ -57,63 +60,76 @@ body {
 	height: 300px;
 	width: auto;
 	float: left;
-	border: 3px solid var(--lightest-color);
+	
 	margin: 0 15px 0 0;
 }
 
 a {
-	color: var(--lightest-color);
+	color: var(--text-color);
 	text-decoration: none;
 }
 
 .contact-button {
-	border: 2px solid var(--lightest-color);
+	border: 2px solid var(--border-color);
 	height: 50px;
 	width: 200px;
 	margin: 0px auto;
-	color: var(--highlight-color);
+	color: var(--text-color);
 	border-radius: 2px;
 	display: inline-block;
 	background: var(--contact-color);
 	vertical-align: top;
+	border-radius: 10px;
   }
-  .contact-text {
+
+.contact-text {
 	text-align: center;
 	display: inline-block;
 	padding-top: 3px;
-  }
-  .email-text {
+}
+
+.email-text {
 	  padding-top: 14px;
-  }
+}
 
 .link-item {
 	display: inline-block;
-    width: 300px;
-	height: 250px;
+    width: 250px;
+	height: 300px;
 	vertical-align: top;
 	margin-right: 15px;
+	margin-bottom: 15px;
 }
 
 .name {
-	width: 300px;
 	text-align: center;
 }
 
-.link-item img {
-	height: 175px;
+.circle-image img {
+	height: 250px;
 	width: auto;
-	display: inline-block;
-	border: 2px solid var(--lightest-color);
 }
 
-.link-item:hover, .link-item img:hover, .contact-button:hover
+.circle-image {
+	height: 250px;
+	width: 250px;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid var(--border-color);
+}
+
+.link-item:hover, .circle-image:hover
 {
 	color: var(--hover-color);
 	border-color: var(--hover-color);
 	text-shadow: 0 0 2em var(--hover-color);
 }
 
-.green {
-	background: var(--button-color-green);
+.contact-button:hover
+{
+	color: var(--contact-hover);
+	border-color: var(--contact-hover);
+	text-shadow: 0 0 2em var(--contact-hover);
 }
 
