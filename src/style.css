@@ -6,6 +6,7 @@
 	--background-color: #6EA7D6;
 	--contact-color: #ffffff;
 	--contact-hover: #3a3b3c;
+	--tan-color: #C4AA97;
 }
 
 body {
@@ -25,8 +26,9 @@ body {
 .top-container {
 	display: flex;
 	flex-direction: column;
-	background: var(--background-color);
-	margin: 15px -1%;
+	background: var(--tan-color);
+	margin: 12px -1%;
+	border: 1px solid black;
 }
 
 .container {
