@@ -42,6 +42,15 @@ body {
 	text-align: center;
 }
 
+.bottom-container {
+	display: flex;
+	flex-direction: column;
+	background: var(--blue-color);
+	text-align: center;
+	margin: -1% -1%;
+	border-top: 2px solid black;
+}
+
 .site-title {
 	text-align: center;
 	font-size: 32px;
@@ -88,6 +97,10 @@ a {
 	text-decoration: none;
 }
 
+.contact-info {
+	margin: 15px;
+}
+
 .contact-button {
 	border: 2px solid var(--border-color);
 	height: 50px;
@@ -99,7 +112,7 @@ a {
 	background: var(--contact-color);
 	vertical-align: top;
 	border-radius: 10px;
-  }
+}
 
 .contact-text {
 	text-align: center;
