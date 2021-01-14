@@ -14,10 +14,25 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.site-title-container {
+	display: flex;
+	flex-direction: column;
+	background: black;
+	color: white;
+	margin: -1% -1%;
+}
+
+.top-container {
+	display: flex;
+	flex-direction: column;
+	background: var(--background-color);
+	margin: auto -1%;
+}
+
 .container {
 	width: 90%;
 	max-width: 1000px;
-	margin: 50px auto;
+	margin: 10px auto;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -27,7 +42,8 @@ body {
 	text-align: center;
 	font-size: 32px;
 	font-weight: bold;
-	margin-bottom: 15px;
+	margin: 15px;
+	margin-bottom: 30px;
 }
 
 .title-text {
@@ -38,10 +54,10 @@ body {
 }
 
 .about-text {
-	text-align: left;
+	text-align: center;
 	font-size: 16px;
-	display: inline;
-	margin-bottom: 15px;
+	display: inline-block;
+	margin: 15px 10%;
 }
 
 .circle {
@@ -52,7 +68,8 @@ body {
 	margin: 0 15px 0 0;
 	display: inline;
 	border-radius: 50%;
-	border: 3px solid var(--border-color);
+	border: 10px solid var(--border-color);
+	margin-left: 10%;
 }
 
 .profile-pic {
@@ -60,7 +77,6 @@ body {
 	height: 300px;
 	width: auto;
 	float: left;
-	
 	margin: 0 15px 0 0;
 }
 
