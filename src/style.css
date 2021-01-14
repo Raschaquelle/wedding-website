@@ -3,14 +3,16 @@
 	--border-color: #000000;
 	--highlight-color: #ffffff;
 	--hover-color: #f5f5f5;
-	--background-color: #6EA7D6;
 	--contact-color: #ffffff;
 	--contact-hover: #3a3b3c;
 	--tan-color: #C4AA97;
+	--gray-color: #97948B;
+	--green-color: #272F1E;
+	--blue-color: #6EA7D6;
 }
 
 body {
-	background: var(--background-color);
+	background: var(--blue-color);
 	color: var(--text-color);
 	font-family: 'Open Sans', sans-serif;
 }
@@ -28,7 +30,7 @@ body {
 	flex-direction: column;
 	background: var(--tan-color);
 	margin: 12px -1%;
-	border: 1px solid black;
+	border: 2px solid black;
 }
 
 .container {
