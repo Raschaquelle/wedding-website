@@ -53,7 +53,7 @@ body {
 	border-top: 2px solid black;
 }
 .footer {
-	margin: 1% -1%;
+	margin: -1% -1%;
 	color: white;
 	text-align: center;
 	font-size: 10px;
@@ -71,7 +71,7 @@ body {
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
-	margin-bottom: 15px;
+	margin: 2%;
 }
 
 .about-text {
@@ -107,7 +107,7 @@ a {
 }
 
 .contact-info {
-	margin: 10%;
+	margin: 0 1% 2%;
 }
 
 .contact-button {
@@ -138,8 +138,7 @@ a {
     width: 250px;
 	height: 300px;
 	vertical-align: top;
-	margin-right: 15px;
-	margin-bottom: 15px;
+	margin: 2% 2%;
 }
 
 .name {
