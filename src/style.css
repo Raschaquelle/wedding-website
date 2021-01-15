@@ -53,7 +53,7 @@ body {
 	border-top: 2px solid black;
 }
 .footer {
-	margin: -1% -1%;
+	margin: 1.5% -1%;
 	color: white;
 	text-align: center;
 	font-size: 10px;
@@ -86,19 +86,16 @@ body {
 	height: 300px;
 	overflow: hidden;
 	float: left;
-	margin: 2%;
 	display: inline;
 	border-radius: 50%;
 	border: 10px solid var(--border-color);
-
+	margin: auto;
 }
 
 .profile-pic {
 	display: inline;
 	height: 300px;
 	width: auto;
-	float: left;
-	margin: 0 auto;
 }
 
 a {
