@@ -40,7 +40,7 @@ body {
 	flex-direction: column;
 	text-align: center;
 	background: var(--blue-color);
-	border-top: 2px solid var(--black-color);
+	border-top: 5px solid var(--black-color);
 }
 
 .bottom-container {
