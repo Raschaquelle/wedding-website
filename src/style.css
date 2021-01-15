@@ -12,7 +12,7 @@
 }
 
 body {
-	background: var(--blue-color);
+	background: black;
 	color: var(--text-color);
 	font-family: 'Open Sans', sans-serif;
 }
@@ -26,29 +26,37 @@ body {
 }
 
 .top-container {
+	width: 100% auto;
+	margin: -1% -1%;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 	background: var(--tan-color);
-	margin: 12px -1%;
-	border: 2px solid black;
 }
 
 .container {
-	width: 90%;
-	max-width: 1000px;
-	margin: 10px auto;
+	width: 100% auto;
+	margin: -1% -1%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	background: var(--blue-color);
+	border-top: 2px solid black;
 }
 
 .bottom-container {
+	margin: -1% -1%;
 	display: flex;
 	flex-direction: column;
-	background: var(--blue-color);
 	text-align: center;
-	margin: -1% -1%;
+	background: var(--blue-color);
 	border-top: 2px solid black;
+}
+.footer {
+	margin: 12px -1%;
+	color: white;
+	text-align: center;
+	font-size: 10px;
 }
 
 .site-title {
