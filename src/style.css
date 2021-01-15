@@ -64,7 +64,7 @@ body {
 	text-align: center;
 	font-size: 32px;
 	font-weight: bold;
-	margin: 15px;
+	margin: 2% 2%;
 }
 
 .title-text {
@@ -78,7 +78,7 @@ body {
 	text-align: center;
 	font-size: 16px;
 	display: inline-block;
-	margin: 2% 5%;
+	margin: 2% 7%;
 }
 
 .circle {
@@ -89,7 +89,7 @@ body {
 	display: inline;
 	border-radius: 50%;
 	border: 10px solid var(--border-color);
-	margin: 1% 5% 1% 0%;
+	margin: 2% 7% 2% 0%;
 }
 
 .profile-pic {
