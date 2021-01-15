@@ -3,45 +3,82 @@
 	--border-color: #000000;
 	--highlight-color: #ffffff;
 	--hover-color: #f5f5f5;
-	--background-color: #6EA7D6;
 	--contact-color: #ffffff;
 	--contact-hover: #3a3b3c;
+	--tan-color: #C4AA97;
+	--gray-color: #97948B;
+	--green-color: #272F1E;
+	--blue-color: #6EA7D6;
 }
 
 body {
-	background: var(--background-color);
+	background: black;
 	color: var(--text-color);
 	font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-	width: 90%;
-	max-width: 1000px;
-	margin: 50px auto;
+.site-title-container {
+	display: flex;
+	flex-direction: column;
+	background: black;
+	color: white;
+	margin: -1% -1%;
+}
+
+.top-container {
+	width: 100% auto;
+	margin: -1% -1%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	background: var(--tan-color);
+}
+
+.container {
+	width: 100% auto;
+	margin: -1% -1%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: var(--blue-color);
+	border-top: 2px solid black;
+}
+
+.bottom-container {
+	margin: -1% -1%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: var(--blue-color);
+	border-top: 2px solid black;
+}
+.footer {
+	margin: 1.5% -1%;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	background: black;
 }
 
 .site-title {
 	text-align: center;
 	font-size: 32px;
 	font-weight: bold;
-	margin-bottom: 15px;
+	margin: 2% 2%;
 }
 
 .title-text {
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
-	margin-bottom: 15px;
+	margin: 1%;
 }
 
 .about-text {
-	text-align: left;
+	text-align: center;
 	font-size: 16px;
-	display: inline;
-	margin-bottom: 15px;
+	display: inline-block;
+	margin: 2% 10%;
 }
 
 .circle {
@@ -49,19 +86,16 @@ body {
 	height: 300px;
 	overflow: hidden;
 	float: left;
-	margin: 0 15px 0 0;
 	display: inline;
 	border-radius: 50%;
-	border: 3px solid var(--border-color);
+	border: 10px solid var(--border-color);
+	margin: 2% 5% 2% 0%;
 }
 
 .profile-pic {
 	display: inline;
 	height: 300px;
 	width: auto;
-	float: left;
-	
-	margin: 0 15px 0 0;
 }
 
 a {
@@ -69,18 +103,22 @@ a {
 	text-decoration: none;
 }
 
+.contact-info {
+	margin: 0 1% 2%;
+}
+
 .contact-button {
 	border: 2px solid var(--border-color);
 	height: 50px;
 	width: 200px;
-	margin: 0px auto;
+	margin: 1% auto;
 	color: var(--text-color);
 	border-radius: 2px;
 	display: inline-block;
 	background: var(--contact-color);
 	vertical-align: top;
 	border-radius: 10px;
-  }
+}
 
 .contact-text {
 	text-align: center;
@@ -97,8 +135,7 @@ a {
     width: 250px;
 	height: 300px;
 	vertical-align: top;
-	margin-right: 15px;
-	margin-bottom: 15px;
+	margin: 2% 2%;
 }
 
 .name {
