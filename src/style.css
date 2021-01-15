@@ -53,10 +53,11 @@ body {
 	border-top: 2px solid black;
 }
 .footer {
-	margin: 12px -1%;
+	margin: 1% -1%;
 	color: white;
 	text-align: center;
 	font-size: 10px;
+	background: black;
 }
 
 .site-title {
@@ -97,7 +98,7 @@ body {
 	height: 300px;
 	width: auto;
 	float: left;
-	margin: 0 15px 0 0;
+	margin: 0 auto;
 }
 
 a {
@@ -106,14 +107,14 @@ a {
 }
 
 .contact-info {
-	margin: 15px;
+	margin: 10%;
 }
 
 .contact-button {
 	border: 2px solid var(--border-color);
 	height: 50px;
 	width: 200px;
-	margin: 0px auto;
+	margin: 0 auto;
 	color: var(--text-color);
 	border-radius: 2px;
 	display: inline-block;
