@@ -30,7 +30,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background: var(--tan-color);
+	background: var(--white-color);
 }
 
 .container {
@@ -48,7 +48,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background: var(--blue-color);
+	color: var(--white-color);
+	background: var(--black-color);
 	border-top: 2px solid var(--black-color);
 }
 
