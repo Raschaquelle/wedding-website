@@ -89,7 +89,7 @@ body {
 	display: inline;
 	border-radius: 50%;
 	border: 10px solid var(--border-color);
-	margin: auto;
+	margin: 1% 5% 1% 0%;
 }
 
 .profile-pic {
