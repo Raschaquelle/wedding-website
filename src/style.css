@@ -29,7 +29,7 @@ body {
 	margin: -1% -1%;
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+	text-align: left;
 	background: var(--white-color);
 }
 
@@ -171,3 +171,43 @@ a {
 	text-shadow: 0 0 2em var(--contact-hover);
 }
 
+.text {
+	display: inline;
+	text-align: left;
+	margin: 0 5%;
+	margin-bottom: 1%;
+}
+
+.text ul {
+	margin: 0;
+	margin-bottom: 1%;
+}
+
+.inline-image {
+	margin: 1%;
+	text-align: center;
+	font-size: 12px;
+}
+
+.two-column {
+	display: inline;
+	text-align: left;
+	margin: 0 5%;
+	margin-bottom: 2%;
+	width: 90%;
+}
+
+.two-column ul {
+	columns: 2;
+	width: 80%;
+	margin: 0% 5%;
+}
+
+.red {
+	color: red;
+	text-align: center;
+}
+
+.link {
+	color: blue;
+}
