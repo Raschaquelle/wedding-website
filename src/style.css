@@ -171,3 +171,18 @@ a {
 	text-shadow: 0 0 2em var(--contact-hover);
 }
 
+.text {
+	display: inline;
+	text-align: left;
+	margin: 0 5%;
+}
+strong {
+	display: inline !important;
+}
+
+.inline-image {
+	display: inline-block;
+	margin: 1% 0;
+	text-align: center;
+}
+
