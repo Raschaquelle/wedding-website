@@ -187,6 +187,7 @@ a {
 	margin: 1%;
 	text-align: center;
 	font-size: 12px;
+	max-width: 100%;
 }
 
 .two-column {
