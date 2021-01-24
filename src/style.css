@@ -189,6 +189,20 @@ a {
 	font-size: 12px;
 }
 
+.inline-image img {
+	height: 300px;
+}
+
+.image {
+	margin: 1%;
+	text-align: center;
+	font-size: 12px;
+}
+
+.image img {
+	height: 500px;
+}
+
 @media only screen and (max-width: 768px) {
     img {
 		max-width: 100%;
