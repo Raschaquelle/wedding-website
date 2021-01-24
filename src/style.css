@@ -231,8 +231,9 @@ a {
 	margin-top: 2%;
 }
 
-.center {
+.widget {
 	text-align: center;
+	margin: 1%;
 }
 
 .link {
