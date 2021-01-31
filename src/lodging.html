@@ -16,9 +16,109 @@
 			</div>
 		</div>
 		<div class="top-container">
-			<div class="title-text">TBD</div>
 			<div class = "text">
-				This page will be updated once lodging has been booked.
+				All guests who are staying overnight for the wedding festivities will be staying 
+				together at a luxurious townhome rental near Durango, CO. We are asking everyone 
+				to stay at the same place for a few reasons:
+				<ol>
+					<li>To keep all guests “quarantined” together</li>
+					<li>It’ll be a blast to all hang out together in such an awesome place</li>
+					<li>It’ll provide a central place for people to get ready before the wedding</li>
+					<li>It provides a place to host a reception after the wedding ceremony</li>
+				</ol>
+			</div>
+			<div class = inline-image>
+				<img
+				src="images/lodging/durango-mountain-resort.jpg"
+				alt="Purgatory Resort"
+				title="Purgatory Resort"
+				height="300"
+				/>
+				<br>
+				<i>Purgatory Resort in the Summer</i>
+			</div>
+			<div class="title-text">Location</div>
+			<div class = "text">
+				The place is about halfway between Durango and Silverton right across from 
+				<a target="_self" href = https://g.page/skipurg?share><u class = "link">Purgatory Resort</u></a>. 
+				This puts it at about a 7hr drive from Denver and about a 20-30min drive to the 
+				trailhead for the wedding ceremony.
+			</div>
+			<div class="title-text">Availability</div>
+			<div class = "text">
+				We have it booked June 2nd-June 5th. The check-in time is 4pm so Ben and Rachelle plan 
+				on being there right around 4pm on June 2nd. That means you are welcome to come early and 
+				stay the nights of the 2nd and 3rd. Check-out time is 10am on June 5th, so everyone will 
+				need to be out by then.
+			</div>
+			<div class = "text">
+				We expect most guests will arrive on June 3rd, probably throughout the day, and then stay the nights of the 3rd and 4th.
+			</div>
+			<div class="title-text">Description</div>
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+				<img src="images/lodging/slideshow/0d1259d6.f10.webp" style="width:50%">
+				</div>
+			
+				<div class="mySlides fade">
+				<img src="images/lodging/slideshow/0e158bef.f10.webp" style="width:50%">
+				</div>
+			
+				<div class="mySlides fade">
+				<img src="images/lodging/slideshow/3a6fc3c5.f10.webp" style="width:50%">
+				</div>
+
+				<div class="mySlides fade">
+				<img src="images/lodging/slideshow/04c2f5dd.f10.jpg" style="width:50%">
+				</div>
+			
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				// Next/previous controls
+				function plusSlides(n) {
+				showSlides(slideIndex += n);
+				}
+
+				// Thumbnail image controls
+				function currentSlide(n) {
+				showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				if (n > slides.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				}
+			</script>
+			<br>
+			
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+			<div class = "text">
+
 			</div>
 		</div>
 		<div class="footer">
