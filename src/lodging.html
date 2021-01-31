@@ -16,6 +16,7 @@
 			</div>
 		</div>
 		<div class="top-container">
+			<div class="title-text"></div>
 			<div class = "text">
 				All guests who are staying overnight for the wedding festivities will be staying 
 				together at a luxurious townhome rental near Durango, CO. We are asking everyone 
@@ -54,24 +55,89 @@
 			<div class = "text">
 				We expect most guests will arrive on June 3rd, probably throughout the day, and then stay the nights of the 3rd and 4th.
 			</div>
-			<div class="title-text">Description</div>
 			<!-- Slideshow container -->
 			<div class="slideshow-container">
 				<!-- Full-width images with number and caption text -->
 				<div class="mySlides fade">
-				<img src="images/lodging/slideshow/0d1259d6.f10.webp" style="width:50%">
+					<img src="images/lodging/slideshow/0d1259d6.f10.webp" style="height:300px">
 				</div>
-			
 				<div class="mySlides fade">
-				<img src="images/lodging/slideshow/0e158bef.f10.webp" style="width:50%">
+					<img src="images/lodging/slideshow/0e158bef.f10.webp" style="height:300px">
 				</div>
-			
 				<div class="mySlides fade">
-				<img src="images/lodging/slideshow/3a6fc3c5.f10.webp" style="width:50%">
+					<img src="images/lodging/slideshow/3a6fc3c5.f10.webp" style="height:300px">
 				</div>
-
 				<div class="mySlides fade">
-				<img src="images/lodging/slideshow/04c2f5dd.f10.jpg" style="width:50%">
+					<img src="images/lodging/slideshow/04c2f5dd.f10.jpg" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/4d4b4715.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/7d3c7f1a.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/8e1ea4e9.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/9affadab.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/026e8836.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/56c0c3a6.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/90-c0365600.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/0208ffe6.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/1937fd47.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/5112fdc8.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/38364e5b.f6.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/44038f27.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/65097a7d.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/0501165f.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/64744509.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/a8914a23.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/afe01cb7.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/d6a11b34.f6.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/d3370b7c.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/d7389a1c.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/dc4a03ac.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/dfe1c675.f10.webp" style="height:300px">
+				</div>
+				<div class="mySlides fade">
+					<img src="images/lodging/slideshow/f2f9ac98.f10.webp" style="height:300px">
 				</div>
 			
 				<!-- Next and previous buttons -->
@@ -95,30 +161,118 @@
 				function showSlides(n) {
 				var i;
 				var slides = document.getElementsByClassName("mySlides");
-				var dots = document.getElementsByClassName("dot");
 				if (n > slides.length) {slideIndex = 1}
 				if (n < 1) {slideIndex = slides.length}
 				for (i = 0; i < slides.length; i++) {
 					slides[i].style.display = "none";
 				}
-				for (i = 0; i < dots.length; i++) {
-					dots[i].className = dots[i].className.replace(" active", "");
-				}
 				slides[slideIndex-1].style.display = "block";
-				dots[slideIndex-1].className += " active";
 				}
 			</script>
 			<br>
-			
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(1)"></span>
-				<span class="dot" onclick="currentSlide(2)"></span>
-				<span class="dot" onclick="currentSlide(3)"></span>
-				<span class="dot" onclick="currentSlide(4)"></span>
-			</div>
+			<div class="title-text">Description</div>
 			<div class = "text">
-
+				The first floor of the home features a large open concept kitchen, dining, and living room 
+				perfect for family gatherings. It includes a large flat screen smart TV, a gas fireplace, 
+				and a large couch with plenty of room for extra seating and lounging. As you pass through 
+				the living room you're met by two large double sliding doors that lead out to a large deck 
+				with a comfortable and spacious outdoor seating area. Also on the top floor is the master 
+				suite. The master bath includes a large, deep soaking tub, large walk in shower, massive 
+				walk in closet and private toilet room. The top floor also includes a guest bathroom and a 
+				laundry room equipped with a brand new top of the line full capacity Whirlpool washer and 
+				dryer set.
+			</div>
+			<div class="text">
+				As you venture down to the bottom level of the home you'll find an additional family living 
+				area with another couch and smart tv. The downstairs room configuration is as follows: Queen 
+				Suite, twin room with 2 twin beds, and a bunk bed room with two twin bunk beds. In addition, 
+				the downstairs couch pulls out into a bed for additional sleeping space. Beyond the lower level 
+				living area is the bottom back patio equipped with a brand new 4 seater hot tub.
+			</div>
+			<div class="title-text">Amenities</div>
+			<div class="text">
+				<ul>
+					<li>4 Bedrooms (sleeps 14)</li>
+						<ol>
+							<li>King Bed: 1st floor</li>
+							<li>Queen Bed: 2nd floor</li>
+							<li>Double twin beds: 2nd floor</li>
+							<li>Double twin bunk beds: 2nd floor</li>
+						</ol>
+						<ul>
+							<li>Full size pullout bed: 2nd floor</li>
+						</ul>
+					<li>2.5 Bathrooms</li>
+					<li>General</li>
+					<div class = "two-column">
+						<ul>
+							<li>Internet</li>
+							<li>Fireplace</li>
+							<li>Washer and Dryer</li>
+							<li>Linens provided</li>
+							<li>Iron and Ironing Board</li>
+							<li>TV</li>
+						</ul>
+					</div>
+					<li>Bathrooms</li>
+						<ul>
+							<li>Towels provided</li>
+							<li>Hair Dryer</li>
+							<li>Basic Soaps and Shampoo</li>
+						</ul>
+					<li>Kitchen</li>
+					<div class = "two-column">
+						<ul>
+							<li>Dishwasher</li>
+							<li>Microwave</li>
+							<li>Toaster</li>
+							<li>Blender</li>
+							<li>Dishes and Utensils</li>
+							<li>Grill</li>
+							<li>Stove</li>
+							<li>Oven</li>
+							<li>Refrigerator</li>
+							<li>Coffee</li>
+							<li>Ice Maker</li>
+							<li>Pantry</li>
+						</ul>
+					</div>
+					<li>Outside</li>
+						<ul>
+							<li>Hot Tub</li>
+							<li>Mountain Bikes</li>
+							<li>Porch/Veranda</li>
+							<li>Balcony</li>
+						</ul>
+				</ul>
+			</div>
+			<div class="title-text">Cost</div>
+			<div class="text">
+				FREE! We are covering lodging for all 3 nights, so don’t worry about it.
+			</div>
+			<div class="title-text">Food</div>
+			<div class="text">
+				We will be providing the following (exact menu TBD):
+				<ul>
+					<li>Dinner on June 3rd</li>
+					<li>Breakfast, Lunch, and Dinner on June 4th</li>
+					<li>Breakfast on June 5th</li>
+				</ul>
+				So you’ll be responsible for covering your food for the 2nd (if you’re coming then) and 
+				then your breakfast and lunch on the 3rd. Of course feel free to bring snacks and whatever 
+				other food you want. We’ll be providing some non-alcoholic drinks as well as some sparkling 
+				wine but feel free to bring your own drinks (alcoholic or non-alcoholic).
+			</div>
+			<div class="title-text">Important Rules</div>
+			<div class="text">
+				This section covers both the rules put in place by the rental owners and additional rules we 
+				are adding to make sure this is the kind of experience we want to have.
+				<ul>
+					<li>No smoking inside or outside (this includes vaping and smoking of cannabis products)</li>
+					<li>Max of 14 guests</li>
+					<li>No pets</li>
+					<li>Drink responsibly (no drinking games)</li>
+				</ul>
 			</div>
 		</div>
 		<div class="footer">
