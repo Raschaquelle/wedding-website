@@ -70,6 +70,24 @@ body {
 	font-family: 'Euphoria Script', cursive;
 }
 
+.home-button {
+	width: auto;
+	float: left;
+	display: inline;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+.home-button img {
+	height: 50px;
+	width: auto;
+}
+
+.top {
+	text-align: center;
+	display: inline-block;
+}
+
 .title-text {
 	text-align: center;
 	font-size: 25px;
