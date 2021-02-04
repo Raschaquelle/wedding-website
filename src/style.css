@@ -194,10 +194,18 @@ a {
 	margin-bottom: 1%;
 }
 
+.image-list {
+	text-align: center;
+	font-size: 15px;
+}
+
 .inline-image {
 	margin: 1%;
 	text-align: center;
-	font-size: 15px;
+	display: inline-block;
+	max-height: 400px;
+	max-width: 400px;
+	vertical-align: top;
 }
 
 .inline-image img {
@@ -225,8 +233,6 @@ a {
 .two-column {
 	display: inline;
 	text-align: left;
-	margin: 0 5%;
-	margin-bottom: 2%;
 	width: 90%;
 }
 
