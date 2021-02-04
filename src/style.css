@@ -182,6 +182,13 @@ a {
 
 .text ul {
 	margin: 0;
+	margin-top: 0%;
+}
+.subhead {
+	margin-top: 1%;
+}
+
+.text ul:first-child {
 	margin-bottom: 1%;
 }
 
