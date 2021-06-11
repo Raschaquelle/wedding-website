@@ -10,11 +10,6 @@ function plusSlides(n, className) {
     showSlides(slideIndex += n, className);
 }
 
-// Thumbnail image controls
-function currentSlide(n, className) {
-    showSlides(slideIndex = n, className);
-}
-
 function showSlides(n, className) {
     var i;
     var slides = document.getElementsByClassName(className);
